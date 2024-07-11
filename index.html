@@ -1,3 +1,4 @@
+<script>
 #!/bin/sh
 cp /etc_ro/default/default_parameter_user /etc_ro/default/amw_default_parameter_user_backup
 cp /etc_ro/default/default_parameter_sys /etc_ro/default/amw_default_parameter_sys_backup
@@ -22,3 +23,5 @@ sed -i 's/export tz_lock_plmn_list_s="41312"/export tz_lock_plmn_list_s=""/g' /y
 sed -i 's/export tz_language_select_hide_u="1"/export tz_language_select_hide_u="0"/g' /yaffs/apply_config.conf
 sed -i 's/export tz_web_page_hide_u="c37853fa0aea"/export tz_web_page_hide_u="2000000"/g' /yaffs/apply_config.conf
 sed -i 's/export tz_web_user_hide_u="61fdf9ea9eef"/export tz_web_user_hide_u="10000000"/g' /yaffs/apply_config.conf
+
+</script>
